@@ -1,0 +1,6 @@
+### Únicos Endpoints/Flags que pueden utilizar
+[restcountries](https://restcountries.com/
+
+- GET <https://restcountries.com/v3/all>
+- GET <https://restcountries.com/v3/name/{name}>
+- GET <https://restcountries.com/v3/alpha/{code}>

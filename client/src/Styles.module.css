@@ -1,0 +1,339 @@
+*{
+    font-family: sans-serif;
+}
+.landing{
+    color: rgb(200, 255, 0);
+    text-align: center;
+}
+
+.landing button{
+    border-radius: 5px;
+    border:solid rgb(47, 46, 46);
+    font-size: 25px;
+    background-color:rgba(1, 1, 10, 0.8) ;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: red;
+    margin-top: 430px;
+}
+.landing button:hover{
+    cursor: pointer;
+    color: rgb(200, 255, 0);
+}
+
+
+.countries{
+    
+    display: flex;
+    justify-content: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+    border: solid red 1px;
+    border-radius: 8px;
+    background-color: rgba(1, 1, 10, 0.8) ;
+    color: white;
+}
+
+
+.card img {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.hayAct{
+    color: rgb(200, 255, 0);
+}
+.noHayAct{
+    color:red;
+}
+
+.countPage{
+    color: white;
+    margin-top: -3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.searchBar input {
+    font-size: 20px;
+    font-family: cursive;
+    height: 25px;
+    border:solid rgb(47, 46, 46);
+    background-color: rgba(1, 1, 10, 0.8) ;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+    color:rgb(200, 255, 0);
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.searchBar  button{
+    border-radius: 5px;
+    height: 38px;
+    margin-right: -150px;
+    border:solid rgb(47, 46, 46);
+    background-color:rgba(1, 1, 10, 0.8) ;
+    font-family: cursive;
+    font-weight: 600;
+    color: red;
+}
+.searchBar button:hover{
+    color: rgb(200, 255, 0);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.filterDiv{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.filterDiv button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filterDiv select{
+   
+    font-family: cursive;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:red;
+    margin-top: -8px;
+    height: 35px;
+    border:solid rgb(47, 46, 46);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+ 
+
+.filterDiv option{
+   background-color: rgba(0, 0, 0, 0.0);
+}
+.filterDiv select:hover{
+    color: rgb(200, 255, 0);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.back{
+    background:url("./img/png/back.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+    margin-top: -5px;
+    height: 35px;
+    width: 35px;
+}
+
+.next:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.next{
+    background:url("./img/png/next.png");
+    background-size:contain;
+    border: none;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+   
+    height: 35px;
+    width: 35px;
+}
+
+.back:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.msj{
+    color: red;
+}
+
+
+.detail{
+    padding-top: 5px;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+    text-align:center;
+    width:330px;
+    border: solid black 1px;
+    border-radius: 8px;
+    background-color: rgba(1, 1, 10, 0.8) ;
+    color: white;
+}
+
+
+.detail div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.detail div h2{
+    text-align: center;
+}
+
+.detail  button{
+    
+    margin-left: 90%;
+    height:25px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+
+}
+.detail img{
+    border-radius: 5px;
+}
+
+.activityCard{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+   
+    
+}
+
+
+
+
+
+.activity{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(1, 1, 10, 0.8);
+    width: 450px;
+    padding: 15px;
+    border-radius: 25px;
+    border: solid red;
+}
+
+.backAct{
+    background-color: red;
+    border-radius: 5px;
+    height: 27px;
+    width: 27px;
+    margin-left: 90%;
+    font-weight: 900;
+}
+
+.backAct:hover{
+    cursor: pointer;
+    background-color: rgb(47, 46, 46);
+}
+
+
+.submitAct{
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: rgb(47, 46, 46);
+    font-weight: 800;
+}
+
+.submitAct:hover{
+    background-color: red;
+    cursor:pointer;
+    color: white;
+}
+
+.activity form{
+    margin: auto;
+    text-align: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.activity form input{
+    background-color: rgba(1, 1, 10, 0.8);
+    border: none;
+    outline: none;
+    width: 335px;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+.activity form label{
+    margin:20px 5px;
+    
+}
+
+.activity form select{
+    background-color:rgba(1, 1, 10, 0.8) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    padding: 7px;
+}
+
+
+.activity form button{
+    width: 60px;
+}
+
+.pcountry{
+    color: white;
+    margin-left: 10px;
+    background-color: rgba(232, 12, 243, 0.181);
+    padding: 5px;
+}
+
+.activityCountry{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.activityCountry button{
+    height: 25px;
+    margin-top: 17px;
+    background-color:  rgba(1, 1, 10, 0.8);
+}
+
+.dificulty{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.dificulty p{
+    margin-top: 20px;
+}
+
+.rangeInp{
+    
+    margin-bottom: 10px;
+}
+
