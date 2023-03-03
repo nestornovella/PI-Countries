@@ -3,7 +3,6 @@ const { Op, Country, Activity } = require("../db.js")
 const { Router } = require("express")
 const { idCreator } = require("../../functions/functions")
 
-
 const router = Router()
 
 //id name dificulty season
